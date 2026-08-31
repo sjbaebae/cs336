@@ -3,11 +3,11 @@ name = "cs336_basics"
 version = "26.0.0"
 description = "CS336 Assignment 1"
 readme = "README.md"
-requires-python = ">=3.12,<3.14"
+requires-python = ">=3.14"
 dependencies = [
-    "einops>=0.8",      # tensor operations
-    "einx>=0.4",        # more general tensor operations
-    "jaxtyping>=0.3",   # type hints for pytorch/jax/numpy
+    "einops>=0.8", # tensor operations
+    "einx>=0.4", # more general tensor operations
+    "jaxtyping>=0.3", # type hints for pytorch/jax/numpy
     "numpy>=2.4",
     "psutil>=7",
     "pytest>=9.0",
@@ -19,10 +19,11 @@ dependencies = [
     "wandb>=0.25",
     "ty>=0.0.26",
     "ruff>=0.15.8",
+    "mpire>=2.10.2",
 ]
 
 [build-system]
-requires = ["uv_build>=0.11.0,<0.12.0"]
+requires = ["uv_build>=0.12.0,<0.13.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
