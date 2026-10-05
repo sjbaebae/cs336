@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Train",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "cs336_basics.train",
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "args": [
+          "--save-ckpt",
+          "outputs/tinystories/ckpt.pt"
+        ]
+      }
+    ]
+  }
+  

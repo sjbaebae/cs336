@@ -20,6 +20,11 @@ dependencies = [
     "ty>=0.0.26",
     "ruff>=0.15.8",
     "mpire>=2.10.2",
+    "maturin>=1.15.0",
+    "pandas>=3.0.6",
+    "matplotlib>=3.11.2",
+    "typer>=0.27.2",
+    "dotenv>=0.9.9",
 ]
 
 [build-system]
@@ -45,6 +50,11 @@ line-length = 120
 [tool.ruff.lint.extend-per-file-ignores]
 # Also ignore `E402` in all `__init__.py` files.
 "__init__.py" = ["E402", "F401", "F403", "E501"]
+
+[dependency-groups]
+dev = [
+    "line-profiler>=5.0.2",
+]
 
 [tool.ruff.lint]
 extend-select = ["UP"]

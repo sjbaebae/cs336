@@ -1,0 +1,18 @@
+{
+  "os": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.14.7",
+  "startedAt": "2026-10-05T21:02:37.520659Z",
+  "args": [
+    "--save-ckpt",
+    "outputs/tinystories/ckpt.pt"
+  ],
+  "program": "-m cs336_basics.train",
+  "git": {
+    "commit": "76be52a2f5f6fdf3e9e582210d025a173fdbcc6f"
+  },
+  "email": "sbae12@u.rochester.edu",
+  "root": "/Users/sbae703/Research/ML/cs336/assignment1-basics",
+  "host": "MacBook-Pro-71.local",
+  "executable": "/Users/sbae703/Research/ML/cs336/assignment1-basics/.venv/bin/python",
+  "writerId": "wxm3xkdphl2pgakama2ef8h7a39gmwax"
+}
